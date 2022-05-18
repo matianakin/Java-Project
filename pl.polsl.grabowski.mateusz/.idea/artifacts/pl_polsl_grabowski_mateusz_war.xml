@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pl.polsl.grabowski.mateusz:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>pl.polsl.grabowski.mateusz</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="base64web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="pl.polsl.grabowski.mateusz:war exploded" />
+    </root>
+  </artifact>
+</component>
